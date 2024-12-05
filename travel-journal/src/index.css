@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  font-family: Inter;
+}
+
+header {
+  background-color: #F55A5A;
+  height: 55px;
+}
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > img {
+  width: 24px;
+}
+
+nav > h1 {
+  color: #FFFFFF;
+  margin-left: 7px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.journal-entry {
+  display: flex;
+  flex-direction: row;
+  height: 168px;
+  align-items: center;
+}
+
+.main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.main-image-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
